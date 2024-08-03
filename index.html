@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>追风的作品</title>
+		<meta name="description" content="追风的作品" />
+		<meta name="keywords" content="追风的博客,开源,源码" />
+		<!--<link href="http://ww2.sinaimg.cn/large/7de0c4f0jw1f7wldvvdkyj2040040weh.jpg" rel="icon" type="image/x-icon">-->
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div class="bg"><img src="images/bg.jpg" /></div>
+			<div id="container" class="main">
+				<!-- 搜索模块 -->
+				<div id="search">
+					<form target="_blank" action="" method="get" class="clear">
+						<div class="engine">
+							<a class="name" href="javascript:;">
+								淘宝<span></span>
+							</a>
+							<div class="list">
+								<a href="#" class="baidu active" data-name="baidu"><span></span>百度</a>
+								<a href="#" class="google" data-name="google"><span></span>谷歌</a>
+								<a href="#" class="sougou" data-name="sougou"><span></span>搜狗</a>
+								<a href="#" class="taobao" data-name="taobao"><span></span>淘宝</a>
+							</div>
+						</div>
+						<input type="search" name="q" id="s" value="www.xwintop.com" />
+						<button type="submit">搜索</button>
+					</form>
+				</div>
+				<!-- 导航模块 -->
+				<div id="dh"></div>
+			</div>
+			<div id="adlink">
+				<a href="http://www.xwintop.com/" target="_blank"><img src="images/bggwx.png" /></a>
+			</div>
+			<!--<div id="footer">
+			</div>-->
+		</div>
+		<script type="text/javascript">
+			var Themes = {
+					'default': 'images/bg.jpg',
+					grey: 'images/grey.jpg',
+					lmcchpabdhdgdlmlokknkjcbgehmcibi: 'images/bg.jpg'
+				},
+				DH = [{
+					name: '首页',
+					data: [{
+						title: '永远在一起',
+						img: 'images/永远在一起.jpg',
+						url: '永远在一起'
+					}, {
+//						title: '在一起的时光',
+//						img: 'images/在一起的时光.jpg',
+//						url: '在一起的时光'
+//					}, {
+//						title: '我们的故事',
+//						img: 'images/我们的故事.jpg',
+//						url: '我们的故事'
+//					}, {
+//						title: '女神生日快乐',
+//						img: 'images/女神生日快乐.jpg',
+//						url: '女神生日快乐'
+//					}, {
+//						title: '情人节快乐',
+//						img: 'images/情人节快乐.jpg',
+//						url: '情人节快乐'
+//					}, {
+						title: 'xJavaFxTool--基于JavaFx搭建的实用小工具集合',
+						img: 'images/xJavaFxTool.png',
+						url: 'https://gitee.com/xwintop/xJavaFxTool'
+					}, {
+						title: '追风出品-小游戏。',
+						img: 'images/追风出品游戏.png',
+						url: 'http://xgame.xwintop.com/'
+					}, {
+						title: 'xVueTool--基于vue开发的web小工具集合',
+						img: 'images/xVueTool.png',
+						url: 'http://xvuetool.xwintop.com/'
+					}, {
+						title: '友缘网Java版--大学期间利用Java语言开发的“有缘网”。（基于s2sh的MVC架构）',
+						img: 'images/友缘网java.jpg',
+						url: 'https://gitee.com/zhuifeng335/youyuan'
+					}, {
+						title: '友缘网PHP版--大学期间利用PHP语言开发的“有缘网”。',
+						img: 'images/友缘网.jpg',
+						url: 'https://gitee.com/zhuifeng335/youyuan_php'
+					}, {
+						title: '电商ECC系统--电商OMS+WMS系统整合，一整套的电商管理解决方案。',
+						img: 'images/电商ECC系统说明.jpg',
+						url: '电商ECC系统说明'
+					}, {
+						title: '2048浪漫版--简单小巧的益智游戏，挑战你的智力极限，令人停不下来的数字消除游戏！全新的界面设计，有经典、趣味、挑战、消灭、计时、聚合等游戏模式，独家障碍模式挑战你的智商，消除和换位等道具，自动移动功能辅助玩家。',
+						img: 'images/2048浪漫版.jpg',
+						url: 'http://xgame.xwintop.com/'
+					}, {
+						title: '智能云导航--大学期间制作的简单的导航页面。',
+						img: 'images/智能云导航.jpg',
+						url: '智能云导航'
+					}, {
+						title: '芜湖云腾网络科技有限公司--实习期间的创业公司网站。',
+						img: 'images/芜湖云腾网络科技有限公司.jpg',
+						url: '芜湖云腾网络科技有限公司'
+					}, {
+						title: '智能云购助手--包括用户登录、注册、走势分析、智能监控、快速购买、智能预测等功能; ',
+						img: 'images/智能云购助手.jpg',
+						url: '智能云购助手'
+					}, {
+					// 	title: '在线浪漫2048游戏--由cocos2d-js版本编写的web版本的浪漫2048。',
+					// 	img: 'images/love2048.jpg',
+					// 	url: 'love2048'
+					// }, {
+//						title: '311回忆',
+//						img: '311回忆/images/011.jpg',
+//						url: '311回忆'
+//					}, {
+//						title: '赛口中学311班',
+//						img: 'images/赛口中学311班.jpg',
+//						url: '赛口中学311班'
+//					}, {
+						title: '赛口中学311毕业照',
+						img: '毕业照/311班/images/011.jpg',
+						url: '毕业照/311班/'
+					}, {
+						title: '莲洲中学302毕业照',
+						img: '毕业照/302班/images/302.jpg',
+						url: '毕业照/302班'
+					}, {
+						title: 'C语言学习助手--在校期间自主开发的一款移动阅读类app“C语言资料大全”获得省级大学生创业大赛铜奖，程序由本人独立完成并带队制作项目策划书，得到校级一致认同并最终获得省级铜奖。',
+						img: 'images/创青春全省创业大赛铜奖.jpg',
+						url: 'http://zhushou.360.cn/detail/index/soft_id/899146'
+					}, {
+						title: 'ofo小黄车密码共享平台',
+						img: 'images/ofo小黄车密码共享平台.jpg',
+						url: 'http://ofo.xwintop.com'
+					}]
+				}]
+		</script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<div style="text-align:center;margin:10px 0; font:normal 14px/24px 'MicroSoft YaHei';position:absolute;left:0;bottom:0;width:100%;z-index:5">
+			<p>来源：
+				<a href="http://www.xwintop.com/" target="_blank">追风的博客</a>
+			</p>
+		</div>
+		
+		<div style="display: none;"><script src="https://s4.cnzz.com/z_stat.php?id=1260400453&web_id=1260400453" language="JavaScript"></script></div>
+	</body>
+
+</html>

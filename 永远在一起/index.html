@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="追风的作品，永远在一起" />
+		<meta name="keywords" content="追风的博客,开源,源码,永远在一起,浪漫" />
+		<link rel="stylesheet" href="./animate.min.css">
+		<script src="./jquery.js"></script>
+		<style type="text/css" lanyezi="lanyezi"></style>
+		<script src="./jquery.mousewheel.min.js"></script>
+		<script src="./index.js"></script>
+		<script src="./animate.js"></script>
+
+		<link rel="stylesheet" href="./css/style1.css">
+
+		<title>小燕，永远在一起！</title>
+		<script>
+			//参数设定
+			var time = 500; //切换时间
+			ntime = 500 //nav变换时间；
+		</script>
+		<script language="javascript">
+			var ss;
+			window.onload = function() {
+				var h = document.documentElement.clientHeight; //适应所有尺寸浏览器
+				document.getElementById('page1').style.height = h + "px";
+				document.getElementById('page2').style.height = h + "px";
+				document.getElementById('page3').style.height = h + "px";
+				document.getElementById('page4').style.height = h + "px";
+				document.getElementById('page5').style.height = h + "px";
+			}
+		</script>
+
+		<script></script>
+	</head>
+
+	<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+		<script>
+			function stop() {
+				return false;
+			}
+			document.oncontextmenu = stop;
+		</script>
+
+		<!--
+		<div class="bg_music">
+			<object type="application/x-shockwave-flash" data="http://www.51bbw.cn/showlist/xinying/dewplayer.swf?mp3=mp3/ayd.mp3%20&amp;autostart=1" width="200" height="20" id="dewplayer">
+				<param name="wmode" value="transparent">
+				<param name="movie" value="dewplayer.swf?mp3=mp3/ayd.mp3 &amp;autostart=1">
+			</object>
+		</div>
+		-->
+		<div id="back" style="display: none; opacity: 0; border-radius: 0px;">返回顶部</div>
+		<div>
+			<ul id="content">
+				<li class="main1">
+					<!--第一页-->
+					<div class="page1" id="page1" style="height: 642px;">
+						<div class="page1_bg animated rollIn" style="display: block;"></div>
+						<div class="page1_t1 animated zoomInDown" style="display: block;"></div>
+						<div class="page1_t2 animated zoomInDown" style="display: block;"></div>
+						<div class="page1_t3 animated zoomInDown" style="display: block;"></div>
+						<div class="page1_cxx animated bounceInLeft" style="display: block;"></div>
+						<div class="page1_cc animated bounceInRight" style="display: block;"></div>
+						<div class="page1_heart animated pulse" style="display: block;"></div>
+						<div class="page1_left animated fadeInUp" style="display: block;"></div>
+						<div class="page1_right animated fadeInUp" style="display: block;"></div>
+						<div class="page1_yun1" style="display: block; position: fixed; left: 475.795px;"></div>
+						<div class="page1_yun2" style="display: block; position: fixed; right: 414.938px;"></div>
+						<div class="page1_yun3" style="display: block; position: fixed; left: 393.14px;"></div>
+					</div>
+
+				</li>
+
+				<li class="main2">
+					<div class="page2" id="page2" style="height: 642px;">
+						<div class="page2_bg" style="display: none;"></div>
+					</div>
+				</li>
+				<li class="main3">
+					<div class="page3" id="page3" style="height: 642px;">
+						<div class="page3_bg"></div>
+					</div>
+
+				</li>
+
+				<li class="main4">
+					<div class="page4" id="page4" style="height: 642px;">
+						<div class="page4_bg">
+							<div class="shipin">
+								<embed width="700" height="430" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMTQ3MTE5NDY4MA==/v.swf" wmode="transparent" invokeurls="false" allowfullscreen="true" allowscriptaccess="never" allownetworking="internal"
+								flashvars="tgid=1030_qq-enuotxduoy&amp;loading_deco_version=off&amp;ban_ad=on&amp;ban_top_panel=on&amp;ban_share_btn=on&amp;ban_over_panel=on">
+							</div>
+						</div>
+					</div>
+
+				</li>
+				<li class="main5">
+					<div class="page5" id="page5" style="height: 642px;">
+
+						<div class="page5_bg">
+							<div id="elapseClock">
+								<iframe src="./love.html" width="600px" height="50" frameborder="0"></iframe>
+							</div>
+							<div class="line"></div>
+						</div>
+
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+		
+		<div style="display: none;"><script src="https://s4.cnzz.com/z_stat.php?id=1260400453&web_id=1260400453" language="JavaScript"></script></div>
+	</body>
+
+</html>

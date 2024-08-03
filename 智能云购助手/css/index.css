@@ -1,0 +1,111 @@
+.titleDiv {
+	/*width: 900px;*/
+	height: 100px;
+	margin: 0px auto 5px;
+	background-color: #EBE8D5;
+}
+
+.titleDiv2 {
+	width: 900px;
+	height: 100px;
+	margin: -105px auto 5px;
+}
+
+.titleDiv2 h2 {
+	margin: -10px 0 0 20px;
+	font-size: 16px;
+	color: #A9A9A9;
+}
+
+.indexImg {
+	width: 900px;
+	height: 2840px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	margin-left: -450px;
+	z-index: 70;
+}
+
+a {
+	width: 184px;
+	height: 60px;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	z-index: 70;
+}
+
+.downloadImg1 {
+	margin-top: 320px;
+	margin-left: 10px;
+	background: url(../img/xzanniu.png) no-repeat;
+}
+
+.downloadImg1:active {
+	background: url(../img/xzanniu2.png) no-repeat;
+}
+
+.downloadImg2 {
+	margin-top: 320px;
+	margin-left: 220px;
+	background: url(../img/ypanniu.png) no-repeat;
+}
+
+.downloadImg2:active {
+	background: url(../img/ypanniu2.png) no-repeat;
+}
+
+.downloadImg3 {
+	margin-top: 2730px;
+	margin-left: -200px;
+	background: url(../img/xzanniu.png) no-repeat;
+}
+
+.downloadImg3:active {
+	background: url(../img/xzanniu2.png) no-repeat;
+}
+
+.downloadImg4 {
+	margin-top: 2730px;
+	margin-left: 50px;
+	background: url(../img/ypanniu.png) no-repeat;
+}
+
+.downloadImg4:active {
+	background: url(../img/ypanniu2.png) no-repeat;
+}
+
+.downloadImg5 {
+	width: 409px;
+	height: 49px;
+	margin-top: 240px;
+	margin-left: 10px;
+	background: url(../img/QQbutton.png) no-repeat;
+}
+
+.downloadImg6 {
+	width: 200px;
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 270px;
+	font-size: 20px;
+	/*background: url(../img/shangwu.png) no-repeat;*/
+}
+.downloadImg7 {
+	width: 200px;
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 110px;
+	font-size: 20px;
+	/*background: url(../img/shangwu.png) no-repeat;*/
+}
+.downloadImg8 {
+	width: 300px;
+	height: 22px;
+	margin-top: 10px;
+	margin-left: -200px;
+	font-size: 20px;
+	/*background: url(../img/shangwu.png) no-repeat;*/
+}

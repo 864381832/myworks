@@ -1,0 +1,153 @@
+@charset "utf-8";
+.gywm_banner {
+    height: 900px;
+    width: 100%;
+    top:0;
+    z-index: 1;
+    background: #fc6e51 url(../../images/AboutUs/aboutus_banner.png) no-repeat center bottom
+}
+.yt_banner_tit{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top:0;
+    opacity: 0
+}
+.yt_banner_tit span{
+    font-size: 30px;
+    font-weight: lighter;
+    display: block
+}
+.ab_cont{
+    background: #fff;
+    margin: 0 auto 0 auto;
+    z-index: 2;
+    position: relative;
+    color: #807F7F;
+    padding-bottom: 80px
+}
+.ab_cont_b{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+.cont03_tit{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px
+}
+.cont_bb{
+    font-size: 16px;
+    line-height: 30px
+}
+.cont_bb p{
+    margin-top: 15px;
+    text-align: center
+}
+
+
+.wmdtd_font {
+    text-align: center
+}
+.wddtd_cont{
+    width:100%;
+    margin-top: 40px;
+    position: relative
+}
+.wddtd_cont ul{
+    width: 1190px;
+    transform: none!important
+}
+.wmdtd_lie li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 87px;
+    margin-bottom: 40px;
+    position: relative
+}
+
+.lxwm_cont {
+    padding: 60px 90px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 60px;
+    background:#25A6DF url(../../images/index/lxwm_bg.png) no-repeat bottom right
+}
+.lxwm_cont span{
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 22px;
+    display: block
+}
+.lxwm_left{
+    width: 420px;
+    float: left;
+    border-right: 1px solid #4EC7FC;
+    padding-right: 40px
+}
+.lxwm_right{
+    padding-left: 100px;
+    float: left;
+    width: 350px
+}
+
+.wmdtd_lie {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+.wmdtd_lie li>div{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    display: none
+}
+.wmdtd_lie li:hover>div{
+    display: block
+}
+.wmdtd_lie li i{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80)
+}
+.wmdtd_lie img{
+    position: relative;
+    z-index: 1;
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+.wmdtd_lie img:hover{
+    transform: scale(1.2);
+}
+.wmdtd_lie li>div>span{
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2
+}
+.wmdtd_lie li>div font{
+    font-size: 24px;
+    line-height: 38px;
+    display: block;
+    color: #25A6DF
+}
+.wmdtd_lie ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none
+}

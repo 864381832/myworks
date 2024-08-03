@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+.banner {
+    height: 100%;
+    position: relative;
+}
+.yjy_banner{
+    background:#ffce54 url(../../images/AppDevelop/yjy_banner.png) no-repeat center bottom;
+    height: 925px;
+    text-align: center
+}
+.cont{
+    color: #666666
+}
+.yt_banner_tit{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top:0;
+    opacity: 0
+}
+.yt_banner_tit span{
+    font-size: 30px;
+    font-weight: lighter;
+    display: block
+}
+
+.yjy_tit {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter
+}
+.yjy_tit b{
+    display: block;
+    font-size: 38px;
+    color: #333333
+}
+.yjy_cont01_lie{
+    width: 1100px;
+    margin: 90px auto 0 auto;
+    overflow: hidden
+}
+.yjy_cont01_lie ul{
+    width: 110%
+}
+.yjy_cont01_lie li{
+    width: 156px;
+    float: left;
+    margin-right: 81px;
+    font-size: 20px;
+    text-align: center
+}
+.yjy_cont01_lie li>div{
+    width: 154px;
+    height: 154px;
+    margin-bottom: 18px;
+    border-radius: 154px;
+    overflow: hidden;
+    position: relative;
+    background:url(../../images/AppDevelop/yjy_ico_bg.png) no-repeat center
+}
+.yjy_cont01_lie i{
+    width: 154px;
+    height: 154px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.yjy_ico01{
+    background-image: url(../../images/AppDevelop/yjy_icot01.png)
+}
+.yjy_ico02{
+    background-image: url(../../images/AppDevelop/yjy_icot02.png)
+}
+.yjy_ico03{
+    background-image: url(../../images/AppDevelop/yjy_icot03.png)
+}
+.yjy_ico04{
+    background-image: url(../../images/AppDevelop/yjy_icot04.png)
+}
+.yjy_ico05{
+    background-image: url(../../images/AppDevelop/yjy_icot05.png)
+}
+
+.yjy_cont1 {
+    padding: 90px 0
+}
+
+.yjy_cont02 {
+    padding: 80px 0;
+    background: #fef9ec
+}
+
+.yjy_cont02_lie {
+    width: 1100px;
+    height: 540px;
+    margin: 30px auto auto;
+    overflow: hidden
+}
+.yjy_cont02_lie ul{
+    width: 105%
+}
+.yjy_cont02_lie li{
+    width: 366px;
+    height: 180px;
+    border:1px solid  #DCDBDB;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    float: left
+}
+.yjy_cont02_lie i{
+    width: 60px;
+    height: 60px;
+    margin: 40px auto 10px auto;
+    display: block
+}
+.yjy02_ico01{
+    background-image: url(../../images/AppDevelop/yjy_ico01.png)
+}
+.yjy02_ico02{
+    background-image: url(../../images/AppDevelop/yjy_ico02.png)
+}
+.yjy02_ico03{
+    background-image: url(../../images/AppDevelop/yjy_ico03.png)
+}
+.yjy02_ico04{
+    background-image: url(../../images/AppDevelop/yjy_ico04.png)
+}
+.yjy02_ico05{
+    background-image: url(../../images/AppDevelop/yjy_ico05.png)
+}
+.yjy02_ico06{
+    background-image: url(../../images/AppDevelop/yjy_ico06.png)
+}
+.yjy02_ico07{
+    background-image: url(../../images/AppDevelop/yjy_ico07.png)
+}
+.yjy02_ico08{
+    background-image: url(../../images/AppDevelop/yjy_ico08.png)
+}
+.yjy02_ico09{
+    background-image: url(../../images/AppDevelop/yjy_ico09.png)
+}
+
+.ywb_banner{
+    background:#296ECA url(../../images/AppDevelop/ywb_banner.jpg) no-repeat center bottom;
+    height: 925px;
+    text-align: center
+}
+.ywb_banner .btn_msjr_go{
+    background: #1663C5;
+    color: #E5F0FD;
+    box-shadow: none;
+    border: 1px solid #C7D7EB
+}
+.ywb_banner .btn_msjr_go:hover{
+    background:#fff;
+    color: #256BC9
+}

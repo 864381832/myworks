@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+body {
+    font-family: alial, Microsoft Yahei;
+    font-size: 14px;
+    color: #fff
+}
+
+.nav a,
+.user_login a ,.page_tit a,.ywb_banner .btn_msjr_go{
+    /*    transition: all 0.5s ease 0s*/
+    transition: all 0.5s cubic-bezier(.39, -0.44, .63, 1.47) 0s
+}img{border:0}
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cont_b {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 100
+}
+
+.header_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.2;
+    filter:alpha(opacity=20)
+}
+
+.logo {
+    display: block;
+    width: 164px;
+    height: 67px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: url(../../images/index/logo.png) no-repeat;
+    z-index: 2
+}
+
+.nav {
+    height: 36px;
+    padding-left: 200px
+}
+
+.nav li {
+    float: left
+}
+
+.nav li a {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 18px;
+    margin-top: 20px;
+    border-radius: 36px
+}
+
+.nav li:hover a {
+    background: rgba(0, 0, 0, .05);
+}
+
+.nav li.active a {
+    background: rgba(0, 0, 0, .15)
+}
+
+.user_login {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 30px
+}
+
+.user_login i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.user_login li {
+    float: left;
+    margin-left: 15px;
+}
+
+.user_ico {
+    background: url(../../images/index/login_ico.png) no-repeat
+}
+
+.reg_ico {
+    background: url(../../images/index/reg_ico.png) no-repeat
+}
+
+.user_login_li {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    padding-right: 15px
+}
+
+.user_login a {
+    color: #fff
+}
+
+.user_login a:hover {
+    opacity: 0.8
+}
+
+#fp-nav {
+    position: fixed;
+    right: 15px;
+    top: 50%
+}
+
+#fp-nav a {
+    display: block;
+    /*width:*/
+}
+
+.footer {
+    position: absolute;
+    width: 1100px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -550px;
+    color: #D2E6EC;
+    z-index: 4
+}
+.footer a{
+    color: #D2E6EC
+}
+
+.f_link{
+    height: 50px;
+}
+.f_link>a{
+    margin-right: 10px;
+    display: inline-block;
+}
+.f_link span{
+    float: right
+}
+.f_link span a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    padding: 0!important
+}
+
+.copyright{
+    height: 80px;
+    padding-top: 6px;
+    border-top: 1px solid #369CB6
+}
+.copyright span{
+    float: right
+}
+
+.cont_footer {
+    position: relative;
+    background: #1D2024;
+    padding-top: 45px
+}
+.cont_footer .footer{
+    position: inherit
+}
+.cont_footer a{
+    color: #fff
+}
+.cont_footer .f_link{
+    border: none
+}
+.cont_footer .copyright{
+    border-color: #34383D;
+    color: #33383E
+}

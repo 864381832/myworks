@@ -1,0 +1,523 @@
+@charset "utf-8";
+.banner {
+    height: 100%;
+    position: relative;
+}
+.cont{
+    color: #666666
+}
+.yt_banner_tit{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top:0;
+    opacity: 0
+}
+.yt_banner_tit span{
+    font-size: 30px;
+    font-weight: lighter;
+    display: block
+}
+.ab_cont{
+    background: #fff;
+    margin: 0 auto 0 auto;
+    z-index: 2;
+    position: relative;
+    color: #807F7F;
+    padding-bottom: 80px
+}
+.ab_cont_b{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+.cont03_tit{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px
+}
+.cont_bb{
+    font-size: 16px;
+    line-height: 30px
+}
+.cont_bb p{
+    margin-top: 15px;
+    text-align: center
+}
+
+
+.wmdtd_font {
+    text-align: center
+}
+.wddtd_cont{
+    width:100%;
+    margin-top: 40px;
+    position: relative
+}
+.wddtd_cont ul{
+    width: 1190px;
+    transform: none!important
+}
+.wmdtd_lie li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 87px;
+    margin-bottom: 40px;
+    position: relative
+}
+
+.wmdtd_bz {
+    text-align: center
+}
+.wmdtd_bz span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    margin-right: 5px;
+    cursor: pointer
+}
+.wmdtd_bz span.active{
+    background-color: #999999
+}
+
+.lxwm_cont {
+    padding: 60px 90px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 60px;
+    background:#25A6DF url(../../images/index/lxwm_bg.png) no-repeat bottom right
+}
+.lxwm_cont span{
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 22px;
+    display: block
+}
+.lxwm_left{
+    width: 420px;
+    float: left;
+    border-right: 1px solid #4EC7FC;
+    padding-right: 40px
+}
+.lxwm_right{
+    padding-left: 100px;
+    float: left;
+    width: 350px
+}
+
+.yjy_tit {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter
+}
+.yjy_tit b{
+    display: block;
+    font-size: 38px;
+    color: #333333
+}
+.yjy_cont01_lie{
+    width: 1100px;
+    margin: 90px auto 0 auto;
+    overflow: hidden
+}
+.yjy_cont01_lie ul{
+    width: 110%
+}
+.yjy_cont01_lie li{
+    width: 156px;
+    float: left;
+    margin-right: 81px;
+    font-size: 20px;
+    text-align: center
+}
+.yjy_cont01_lie li>div{
+    width: 154px;
+    height: 154px;
+    margin-bottom: 18px;
+    border-radius: 154px;
+    overflow: hidden;
+    position: relative;
+    background:url(../../images/index/yjy_ico_bg.png) no-repeat center
+}
+.yjy_cont01_lie i{
+    width: 154px;
+    height: 154px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.yjy_cont1 {
+    padding: 90px 0
+}
+
+.yjy_cont02 {
+    padding: 80px 0;
+    background: #F1F5FB
+}
+
+.yjy_cont02_lie {
+    width: 1100px;
+    height: 540px;
+    margin: 30px auto auto;
+    overflow: hidden
+}
+.yjy_cont02_lie ul{
+    width: 105%
+}
+.yjy_cont02_lie li{
+    width: 366px;
+    height: 180px;
+    border:1px solid  #DCDBDB;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    float: left
+}
+.yjy_cont02_lie i{
+    width: 60px;
+    height: 60px;
+    margin: 40px auto 10px auto;
+    display: block
+}
+
+.ywb_banner{
+    background:#ec87c0 url(../../images/Outsourcing/ywb_banner.png) no-repeat center bottom;
+    height: 624px;
+    text-align: center;
+}
+.ywb_banner .btn_msjr_go{
+    background: #ec87c0;
+    color: #E5F0FD;
+    box-shadow: none;
+    border: 1px solid #C7D7EB
+}
+.ywb_banner .btn_msjr_go:hover{
+    background:#fff;
+    color: #256BC9
+}
+
+.ywb_cont01_lie {
+    width: 1100px;
+    margin: 90px auto 0 auto
+}
+.ywb_cont01_lie ul{
+    width: 110%
+}
+.ywb_cont01_lie li{
+    width: 150px;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    line-height: 24px;
+    margin-right: 87px
+}
+
+.ywb_cont01_lie li>div{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(../../images/Outsourcing/ywb_ico_bg.png) no-repeat;
+    position: relative;
+    overflow: hidden
+}
+
+.ywb_cont01_lie i{
+    width: 70px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -35px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.ywb_cont01_lie span{
+    font-size: 16px;
+    color: #999999
+}
+.ywb_ico01{
+    background-image: url(../../images/Outsourcing/ywb_ico01.png)
+}
+.ywb_ico02{
+    background-image: url(../../images/Outsourcing/ywb_ico02.png)
+}
+.ywb_ico03{
+    background-image: url(../../images/Outsourcing/ywb_ico03.png)
+}
+.ywb_ico04{
+    background-image: url(../../images/Outsourcing/ywb_ico04.png)
+}
+.ywb_ico05{
+    background-image: url(../../images/Outsourcing/ywb_ico05.png)
+}
+
+.ywb_cont02_lie {
+    width: 1100px;
+    margin: 70px auto 0 auto;
+    overflow: hidden
+}
+.ywb_cont02_lie ul{
+    width: 120%
+}
+.ywb_cont02_lie li{
+    width: 480px;
+    height: 190px;
+    overflow: hidden;
+    float: left;
+    margin-right: 134px
+}
+.ywb_cont02_lie li>i{
+    width: 140px;
+    height: 140px;
+    border: 1px solid #D8D9DA;
+    border-radius: 140px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left
+}
+.ywb_c2_c{
+    width: 290px;
+    float: right
+}
+.ywb_c2_c>div{
+    font-size: 24px;
+    color: #333333
+}
+.ywb_c2_c>p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+    margin-top: 10px
+}
+.ywb_ico06{
+    background-image: url(../../images/Outsourcing/ywb_ico06.png)
+}
+.ywb_ico07{
+    background-image: url(../../images/Outsourcing/ywb_ico07.png)
+}
+.ywb_ico08{
+    background-image: url(../../images/Outsourcing/ywb_ico08.png)
+}
+.ywb_ico09{
+    background-image: url(../../images/Outsourcing/ywb_ico09.png)
+}
+
+.wmdtd_lie {
+    position: relative;
+    width: 100%;
+    height: 590px;
+}
+.wmdtd_lie li>div{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    display: none
+}
+.wmdtd_lie li:hover>div{
+    display: block
+}
+.wmdtd_lie li i{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80)
+}
+.wmdtd_lie img{
+    position: relative;
+    z-index: 1;
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+.wmdtd_lie img:hover{
+    transform: scale(1.2);
+}
+.wmdtd_lie li>div>span{
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2
+}
+.wmdtd_lie li>div font{
+    font-size: 24px;
+    line-height: 38px;
+    display: block;
+    color: #25A6DF
+}
+.wmdtd_lie ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none
+}
+
+.xwdt_banner {
+    height: 600px;
+    background: #16AC9E;
+    position: relative;
+    overflow: hidden
+}
+.xwdt_banner .yt_banner_tit{
+    z-index: 3;
+    top: 0;
+    opacity: 1
+}
+/*首页屏三云层动画*/
+@keyframes yun3_1{
+    0%{
+        left: 30%
+    }
+    70%{
+        left: 110%;
+        opacity: 1
+    }
+    71%{
+        opacity: 0
+    }
+    75%{
+        left: -5%;
+        opacity: 0
+    }
+    78%{
+        opacity: 1
+    }
+    100%{
+        left: 30%
+    }
+}
+.p3_y_t1{
+    -webkit-animation: yun3_1  60s linear infinite;
+    -moz-animation: yun3_1 60s linear infinite;
+    -ms-animation: yun3_1  60s linear infinite;
+    animation: yun3_1  60s linear infinite;
+    opacity:1;
+}
+@keyframes yun3_2{
+    0%{
+        left: 60%
+    }
+    40%{
+        left: 110%
+    }
+    41%{        
+        opacity: 0
+    }
+    46%{
+        opacity: 0;
+        left: -5%
+    }
+    48%{
+        opacity: 1
+    }
+    100%{
+        left: 60%
+    }
+}
+.p3_y_t2{
+    -webkit-animation: yun3_2 40s linear infinite;
+    -moz-animation: yun3_2 40s linear infinite;
+    -ms-animation: yun3_2 40s linear infinite;
+    animation: yun3_2 40s linear infinite;
+    opacity: 1
+}
+@keyframes yun3_3{
+    0%{
+        left: 80%
+    }
+    20%{
+        left: 110%
+    }
+    21%{        
+        opacity: 0
+    }
+    25%{
+        opacity: 0;
+        left: -5%
+    }
+    28%{
+        opacity: 1
+    }
+    100%{
+        left: 80%
+    }
+}
+.p3_y_t3{
+    -webkit-animation: yun3_3 30s linear infinite;
+    -moz-animation: yun3_3 30s linear infinite;
+    -ms-animation: yun3_3 30s linear infinite;
+    animation: yun3_3 30s linear infinite;
+    opacity: 1
+}
+@keyframes yun3_b1{
+    0%{
+        left: 20%
+    }
+    50%{
+        left: 25%
+    }
+    100%{
+        left: 20%
+    }
+    
+}
+.p3_y_b1{
+    -webkit-animation: yun3_b1 20s infinite ease-in-out;
+    -moz-animation: yun3_b1 20s infinite ease-in-out;
+    -ms-animation: yun3_b1 20s infinite ease-in-out;
+    animation: yun3_b1 20s infinite ease-in-out;
+}
+@keyframes yun3_s1{
+    0%{
+        left: 45%
+    }
+    50%{
+        left: 55%
+    }
+    100%{
+        left: 45%
+    }
+    
+}
+.p3_s_y{
+    -webkit-animation: yun3_s1 30s infinite ease-in-out;
+    -moz-animation: yun3_s1 30s infinite ease-in-out;
+    -ms-animation: yun3_s1 30s infinite ease-in-out;
+    animation: yun3_s1 30s infinite ease-in-out;
+}
+
+
+/*修改合作伙伴鼠标移上样式*/
+.p5_cont_lie li a img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.p5_cont_lie li:hover a img{
+    top: auto;
+    bottom: 0
+}
